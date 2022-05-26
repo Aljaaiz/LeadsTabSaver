@@ -37,7 +37,7 @@ ul.addEventListener('click', function (e) {
 
 
 deletebtn.addEventListener('dblclick', function () {
-    if (confirm('Are you saure you want to clear all ?')) {
+    if (confirm('Are you sure you want to clear all ?')) {
         localStorage.clear()
         leadArray = []
         render(leadArray)
